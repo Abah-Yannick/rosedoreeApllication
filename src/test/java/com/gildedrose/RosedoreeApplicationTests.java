@@ -5,10 +5,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.gildedrose.GildedRose;
-import com.gildedrose.Item;
+import com.gildedrose.run.RosedoreeApplication;
 
-@SpringBootTest
+
+@SpringBootTest(classes = RosedoreeApplicationTests.class)
 class RosedoreeApplicationTests {
 
     @Test
